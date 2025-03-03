@@ -1,6 +1,10 @@
 package com.tugalsan.api.converter.client;
 
 public class TGS_ConverterUtils {
+    
+    private TGS_ConverterUtils(){
+        
+    }
 
     public static Double castBytes2KB(long bytesLength) {
         return bytesLength / (double) (1024);
